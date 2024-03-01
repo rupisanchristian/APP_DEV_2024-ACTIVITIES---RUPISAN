@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="layout.css"> 
 </head>
 <body>    
+    <div class='square' id="square">
     <header>
     <h1>CHRISTIAN RUPISAN</h1>
     <h2>SUMMARY</h2>
@@ -118,7 +119,8 @@
         <img src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.6435-9/68336079_925626771134710_8469008572305375232_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeFUinXqPWuGbrxQ4q1xSEH890vVR0AD7_33S9VHQAPv_XQSwRfjKMfnxqAvb7606eR2NmLoN-omQc4vQqUJLy-q&_nc_ohc=dv0yGZfVQhgAX98Jvwi&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfC_1ZVx0_gIKHB5i9IG3Zrb2DxrCeMeEdnbkdaMcS3fVA&oe=6607D425" alt="Canadian Marble Fox" width="550" height="600">
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db07c0e1-de0b-439c-89b0-2ecdafa6b0df/dglqaw8-744cc7e0-f363-42a7-be0d-50861ed01616.jpg/v1/fit/w_768,h_1024,q_70,strp/bmw_m3_gtr_nfs_most_wanted_in_real_life_polska__by_markol111_dglqaw8-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2RiMDdjMGUxLWRlMGItNDM5Yy04OWIwLTJlY2RhZmE2YjBkZlwvZGdscWF3OC03NDRjYzdlMC1mMzYzLTQyYTctYmUwZC01MDg2MWVkMDE2MTYuanBnIiwid2lkdGgiOiI8PTc2OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MnTtKo5nWVmG8Z0GVuC-xpOe9C8Wxbt3_lyH1zIy70I" alt="BMW 2005 REAL LIFE FROM NFS MW" width="500" height="600">
         <img src="https://cdn.thecoolist.com/wp-content/uploads/2021/02/Most-Beautiful-Places-in-Japan.jpg" alt="Very Anime! Kyoto, Japan " width="730" height="600">
-        <h2>MY WEEEKLY SCHEDULE</h2>
+        
+        <h2 id="schedule">MY WEEEKLY SCHEDULE</h2>
 
         <table>
             <tr>
@@ -232,32 +234,35 @@
                     
     </table>
 
-    <h2>Feedback Form</h2>
+    <h2 id="feedback">Feedback Form</h2>
 
         <form action="/action_page.php">
-            <label for="name">Name:</label><br>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
             <input type="text" id="email" name="email"><br><br>
 
-        <p>Are you satisfied with our product?</p>
-            <input type="radio" id="yes" name="identifier"><br>
-            <input type="radio" id="no" name="identifier"><br>
+        <p>Are you satisfied with our service?</p>
+
+            <input type="radio" id="yes" name="satisfied">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="satisfied">
+            <label for="yes">No</label><br>
 
     
-        <p>Tell us how you feel about us:</p>
+        <p>Tell us how you feel about:</p>
             <textarea id="msg" name="msg" rows="10" cols="80" required> 
             </textarea> <br><br>
             <input type="submit" id="Submit"> <br><br>
         </form> 
-
+    </div>
 
         <footer>
             <p>Copyright @ 2024 by Christian Rupisan. All rights reserve.</p>
             <p>No part of this publication may be reproduced, distributed, or transmitted in any
                 form or by any means without the prior written permission of the author.</p>
           </footer>
-      
+        
 
 </body>
 </html>

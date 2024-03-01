@@ -1,3 +1,18 @@
+body {
+  margin: 150px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+
+}
+
+#square{
+  margin:auto;
+  border: 5px solid #ddd;
+  background-color: #a01e1e00;
+  padding: 40px;
+}
+
 footer {
     background-color: #777;
     padding: 10px;
@@ -8,11 +23,11 @@ footer {
   table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    margin: 70px;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
@@ -24,6 +39,9 @@ footer {
   #sched1, #sched2, #sched3, #sched4, #sched5, #sched6, #sched7, #sched8{
     text-align: center;
   }
+  #schedule {
+    text-align: center;
+  }
 
   img {
     border: 1px solid #ddd;
@@ -33,6 +51,16 @@ footer {
     margin-bottom: 30px;
   }
   
+  #name, #email {
+    display: inline;
+    border-radius:15px;
+    padding: 9px;
+    height: 30px;
+    width: 290px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+  }
   
   #Submit {
     
@@ -45,8 +73,25 @@ footer {
     min-width: 200px;
     height: 50px;
     font-size: 18px;
-    background: #e7ebee;
+    background: #f8f8f8;
     font-weight: 500;
     color: #222;
     
   }
+#msg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#feedback {
+  text-align: center;
+}
