@@ -1,16 +1,46 @@
+#Fullname {
+  border-width: thin;
+  text-align: left;
+  width: 50%;
+  margin-bottom: auto;
+  font-size: 50px;
+}
+div.box{
+  margin: auto;
+  position: absolute;
+  background-color: #0e91ce;
+  top: 140px;
+  right: -731px;
+  left: 17px;
+  border: 30px;
+  width: 518px;
+  height: 35px;
+}
+#Status {
+  border-width: thin;
+  text-align: left;
+  margin-top: 1px;
+  width: 30%;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#horizontal {
+  border-bottom: 2px solid rgb(0, 0, 0);
+            margin-top: 5px;
+            width: 100%;
+}
+
 body {
   margin: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
-
-
 }
 
-#square{
+div.square{
   margin:auto;
   border: 5px solid #ddd;
   background-color: #a01e1e00;
-  padding: 40px;
+  padding: 50px;
 }
 
 footer {
