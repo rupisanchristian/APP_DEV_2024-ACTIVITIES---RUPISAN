@@ -1,46 +1,62 @@
 #Fullname {
+  position: relative;
+  color:#f8f8f8;
   border-width: thin;
-  text-align: left;
-  width: 50%;
+  width: 100%;
   margin-bottom: auto;
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
+  right: -21px;
+  top: 16px;
 }
+
+header.background {
+  height: 200px;
+  background-color:#4c8adc;
+  padding: 45px;
+  opacity: 0.8;
+  background-image:  linear-gradient(#5592e3 2px, transparent 2px), linear-gradient(90deg, #5592e3 2px, transparent 2px), linear-gradient(#5592e3 1px, transparent 1px), linear-gradient(90deg, #5592e3 1px, #4c8adc 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
 div.box{
+  border-top:#000 1px solid;
   margin: auto;
+  border: 5px;
   position: absolute;
-  background-color: #0e91ce;
-  top: 140px;
-  right: -731px;
-  left: 17px;
-  border: 30px;
-  width: 518px;
+  top: 122px;
+  right: -5px;
+  width: 43%;
   height: 35px;
 }
 #Status {
+  position: relative;
+  color:#f8f8f8;
   border-width: thin;
-  text-align: left;
   margin-top: 1px;
-  width: 30%;
-  font-size: 30px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  right: 1px;
+  top: 36px;
   font-weight: lighter;
-}
-#horizontal {
-  border-bottom: 2px solid rgb(0, 0, 0);
-            margin-top: 5px;
-            width: 100%;
 }
 
 body {
   margin: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
+  background-color: #ffffffb9;
 }
 
 div.square{
+  position: relative;
   margin:auto;
-  border: 5px solid #ddd;
-  background-color: #a01e1e00;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
   padding: 50px;
+  box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.2), 0 11px 12px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
@@ -79,6 +95,24 @@ footer {
     padding: 5px;
     margin-right: 21px;
     margin-bottom: 30px;
+  }
+  #profile {
+    overflow: hidden;
+    display: block;
+    margin:auto;
+    position: absolute;
+    object-fit: none;
+    border: 0.7rem solid white;
+    padding: 0px;
+
+    top: -211px;
+    left: 17px;
+    width: 19%;
+    height: 242px;
+    margin-left: 30px;
+    margin-right: 21px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
   }
   
   #name, #email {
@@ -125,3 +159,4 @@ footer {
 #feedback {
   text-align: center;
 }
+
